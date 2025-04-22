@@ -1,6 +1,6 @@
 module.exports = {
   ignorePatterns: ["apps/**", "packages/**", "config/**"],
-  expents: ["@saas/eslint-config/library.js"],
+  extends: ["@saas/eslint-config/base.js"],
   parser: "",
   parserOptions: {},
 };
